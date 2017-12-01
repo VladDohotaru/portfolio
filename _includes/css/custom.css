@@ -1,6 +1,7 @@
 /* Site Level */
 body {
-  font-family: "PT Sans", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* font-family: "PT Sans", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+      font-family: "Uni";    
 }
 
 h4, .h4, h5, .h5, h6, .h6 {
@@ -47,7 +48,8 @@ section#about div#interests hr.star-primary:after {
 }
 
 section#about div.row {
-margin: 10px 0;
+ margin: 10px 0; 
+/* display: block; */
 }
 
 section#about div#left p {
@@ -75,7 +77,7 @@ section#about ul  {
 }
 
 #portfolio .portfolio-item .portfolio-link {
-  border: 1px solid #{{ site.color.secondary }};
+  /* border: 1px solid #{{ site.color.secondary }}; */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -87,8 +89,10 @@ section#about ul  {
 }
 
 #portfolio .portfolio-item p a {
-  font-family: "Lato";
-  display: inline-block;
+  /* font-family: "Open Sans"; */
+  font-family: "Uni";    
+
+  display: block;
   width: 100%;
   padding: 10px 0 0 0;
 }
@@ -104,7 +108,7 @@ section#about ul  {
 }
 
 .portfolio-modal img {
-  border: 1px solid #{{ site.color.secondary-light }};
+  /* border: 1px solid #{{ site.color.secondary-light }}; */
 }
 
 .portfolio-modal li {
@@ -196,7 +200,9 @@ section#blog div.blog-item:hover a{
 
 /* Blog Posts */
 article.blog-post {
-  font-family: "PT Serif", "PT Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Serif", "PT Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Uni";    
+
 }
 
 article.blog-post header {

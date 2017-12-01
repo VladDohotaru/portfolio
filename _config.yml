@@ -1,17 +1,17 @@
 # Site settings
-title: Bill Martin
+title: Ion Burungiu
 email: bill@billmartin.io
 url: http://billmartin.io
-description: "Full-Stack Web Developer, Musician, and Great Outdoors Enthusiast."
-meta_author: Bill Martin
+description: "3D MAX etc, etc"
+meta_author: Vlad Dohotaru
 baseurl: "/portfolio"
 
 about:
   header: About
   content:
-      left: By day, I code payment, enrollment, and quoting web applications for some of the industry's top health insurance companies, whilst striving for <a href="http://blog.codinghorror.com/a-pragmatic-quick-reference/" target="_new">Pragmatic Programmer</a> perfection.
-      right: By night, I play guitar in three bands, camp, kayak, hike, play video games, read fantasy, sci-fi, & programming books, and ponder Life, The Universe, and Everything.
-      bottom: I live in Manchester, NH.
+      left: scriu ceva aici
+      right: si aici
+      bottom: si dicoace
   interests:
     header: Interests as of Late
     content:
@@ -100,27 +100,15 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc. search them in main.css)
 social:
-  - title: github
-    tooltip: "Github: Code I am writing"
-    url: https://github.com/bill-c-martin
+  - title: facebook
+    tooltip: "Facebook: Add me on Facebook"
+    url: https://www.facebook.com/burungiu.ion
+  - title: behance
+    tooltip: "Behance: Projects"
+    url: https://www.behance.net/IonBurungiu
   - title: linkedin
     tooltip: "Linkedin: Places I've worked"
-    url: https://www.linkedin.com/in/billmartin9
-  - title: codeschool
-    tooltip: "Codeschool: Skills I am learning"
-    url: https://www.codeschool.com/users/90602
-  - title: laracasts
-    tooltip: "Laracasts: Skills I am learning"
-    url: https://laracasts.com/@wcmarti2
-  - title: stack-overflow
-    tooltip: "Stack Overflow: Solutions I've been exchanging"
-    url: http://stackoverflow.com/users/5743565/bill-martin
-  - title: goodreads
-    tooltip: "Goodreads: Books I've been reading"
-    url: http://www.goodreads.com/billmartin
-  - title: rss
-    tooltip: Subscribe to RSS feed
-    url: /feed.xml
+    url: https://www.linkedin.com/in/burungiu-ion-4a276aa2/
 
 # Credits content
 credits: '<a href="https://github.com/bill-c-martin/bill-c-martin.github.io">Fork my portfolio on github</a>'

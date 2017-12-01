@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ion Burungiu</title>
+    <description>3D MAX etc, etc</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 01 Dec 2017 21:49:41 +0200</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2017 21:49:41 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>The World is Mine for the Reading</title>
+        <description></description>
+        <pubDate>Sat, 03 Jun 2017 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/blog/2017/06/03/The-World-is-Mine-for-the-Reading/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/06/03/The-World-is-Mine-for-the-Reading/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Writing is Hard</title>
+        <description></description>
+        <pubDate>Thu, 23 Feb 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2017/02/23/Writing-is-Hard/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/23/Writing-is-Hard/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>I Love Being a Software Developer</title>
+        <description></description>
+        <pubDate>Fri, 02 Dec 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/12/02/I-Love-Being-a-Software-Developer/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/12/02/I-Love-Being-a-Software-Developer/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Usability in Three Minutes</title>
+        <description></description>
+        <pubDate>Sun, 13 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/03/13/Usability-in-Three-Minutes/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/13/Usability-in-Three-Minutes/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Legacy App Maintenance Is A Dead End</title>
+        <description></description>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/03/01/Legacy-App-Maintenance-Is-A-Dead-End/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/01/Legacy-App-Maintenance-Is-A-Dead-End/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>How I Keep Track of Things</title>
+        <description></description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/02/17/How-I-Keep-Track-of-Things/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/02/17/How-I-Keep-Track-of-Things/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Documenting Database Design</title>
+        <description></description>
+        <pubDate>Wed, 03 Feb 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/02/03/Documentating-Database-Design/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/02/03/Documentating-Database-Design/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>The Simplicity of SQLite</title>
+        <description></description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/01/25/The-Simplicity-of-Sqlite/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/01/25/The-Simplicity-of-Sqlite/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Install Arch Linux on VirtualBox</title>
+        <description></description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/01/14/Install-Arch-Linux-on-Virtualbox/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/01/14/Install-Arch-Linux-on-Virtualbox/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Install YNAB on Arch Linux</title>
+        <description></description>
+        <pubDate>Sun, 10 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/2016/01/10/Install-YNAB-on-Arch-Linux/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/01/10/Install-YNAB-on-Arch-Linux/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

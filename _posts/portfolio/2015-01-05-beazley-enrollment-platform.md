@@ -3,7 +3,10 @@ layout: default
 title: Beazley Enrollment Platform
 category: portfolio
 modal-id: 5
-img: beazley.png
+img: project6.png
+img1: project6.png
+img2: project6.png
+img3: project6.png
 alt: Screenshot of application that allows bulk employee enrollment and managements for groups
 client: Beazley
 application: Beazley Group Portal

@@ -1,9 +1,12 @@
 ---
 layout: default
-title: AVMA Agent and Member Portals
+title: gbfdbfdg
 category: portfolio
 modal-id: 2
-img: avma.png
+img: project2.png
+img1: project2.png
+img2: project2.png
+img3: project2.png
 alt: AVMA home page
 client: AVMA
 application: Agent, Quoting & Member Portals

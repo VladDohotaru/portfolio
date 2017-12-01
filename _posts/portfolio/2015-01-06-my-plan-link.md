@@ -3,7 +3,10 @@ layout: default
 title: MyPlanLink Quoting and Payments
 category: portfolio
 modal-id: 6
-img: myplanlink-quoting.png
+img: project7.png
+img1: project7.png
+img2: project7.png
+img3: project7.png
 alt: Screenshot of MyPlanLink Quoting
 client: United Healthcare, Aetna, Blue Cross, and more
 application: MyPlanLink Quoting

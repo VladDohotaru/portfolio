@@ -3,7 +3,10 @@ layout: default
 title: Cigna Quoting and Enrollment Portals
 category: portfolio
 modal-id: 1
-img: cigna.png
+img: project.png
+img1: project.png
+img2: project.png
+img3: project.png
 alt: Cigna home page
 client: Cigna
 application: Broker, Enrollment, and Quoting Portals
@@ -31,7 +34,6 @@ stack:
 - PHP
 - DB2
 ---
-
 ### Project Description
 
 Cigna had four web applications to facilitate sales of health and dental insurance

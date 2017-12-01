@@ -3,7 +3,10 @@ layout: default
 title: Policy Change Quoting
 category: portfolio
 modal-id: 3
-img: ifq.png
+img: project3.png
+img1: project3.png
+img2: project3.png
+img3: project3.png
 alt: Screenshot of application that quotes changes to existing policies
 client: Cigna, Florida Blue, Blue Shield, Coventry, Aetna
 application: Policy Change Quoting

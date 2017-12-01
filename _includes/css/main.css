@@ -3,8 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@font-face {
+  font-family: 'Uni';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../css/font-awesome/fonts/Uni-Sans-Regular.otf") format("opentype");
+}
 
 body {
+  font-family: 'Uni', serif;    
     overflow-x: hidden;
 }
 
@@ -22,7 +29,9 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
+     color: #808080; 
+    /* color: #A9A9A9; */
 }
 
 h1,
@@ -32,7 +41,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Uni";
+    /* font-family: "Open Sans"; */
     font-weight: 700;
 }
 
@@ -53,7 +63,8 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    /* font-family: FontAwesome; */
+    font-family: "Uni";    
     font-size: 2em;
 }
 
@@ -98,7 +109,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    /* font-family: "Open Sans"; */
+    font-family: "Uni";        
     font-size: 2em;
     font-weight: 700;
 }
@@ -123,12 +136,14 @@ header .intro-text .skills {
     }
 }
 
+}
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 10;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -149,7 +164,9 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    /* font-family: "Open Sans"; */
+    font-family: "Uni";        
     font-weight: 700;
 }
 
@@ -197,6 +214,8 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    float: left;
+    padding: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -343,7 +362,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 0px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
 
