@@ -1,10 +1,10 @@
 # Site settings
 title: Ion Burungiu
-email: bill@billmartin.io
-url: http://billmartin.io
+email: burungiu@burungiu.com
+url: http://burungiu.com
 description: "3D MAX etc, etc"
 meta_author: Vlad Dohotaru
-baseurl: "/portfolio"
+baseurl: ""
 
 about:
   header: About
