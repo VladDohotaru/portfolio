@@ -4,7 +4,7 @@ email: burungiu@burungiu.com
 url: http://burungiu.com
 description: "3D MAX etc, etc"
 meta_author: Vlad Dohotaru
-baseurl: ""
+baseurl: "/portfolio"
 
 about:
   header: About
