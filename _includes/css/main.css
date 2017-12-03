@@ -24,14 +24,16 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
+    /* outline: 0; */
     /* color: #{{ site.color.primary }}; */
      color: #808080; 
     /* color: #A9A9A9; */
+}
+a:hover {
+    color: #000;
 }
 
 h1,

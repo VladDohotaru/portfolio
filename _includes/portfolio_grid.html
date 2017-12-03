@@ -13,12 +13,13 @@
                     <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
+                                <p>{{ post.title }}</p>
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                     </a>
-                    <p><a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal">{{ post.title }}</a></p>
+                    <!-- <p><a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal">{{ post.title }}</a></p> -->
                 </div>
 
                 {% assign loopindex = forloop.index | modulo: 3 %}
