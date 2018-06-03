@@ -2076,13 +2076,13 @@ select option {
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    position: auto; /* Stay in place */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
+    z-index: 9999;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
@@ -2091,8 +2091,10 @@ select option {
 .modal-content {
     margin: auto;
     display: block;
+    position: auto; /* Stay in place */
     width: 80%;
     max-width: 700px;
+
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
