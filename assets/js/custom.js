@@ -266,6 +266,6 @@ $.getScript("assets/js/jquery.session.js", function() {
             $(".logo:nth-child(5) a img").attr("src","assets/img/logo-5-w.png");
         }
     }
-
+    
 });
 

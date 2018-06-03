@@ -275,10 +275,7 @@ ul li {
   z-index: -1;
   overflow: hidden;
 }
-.bg img {
-  max-width: inherit;
-  height: 100%;
-}
+
 .bg.white {
   background-color: #fff;
 }
@@ -1953,4 +1950,195 @@ select option {
     margin: 15px 0;
   }
 }
+/* - Portfolio Section */
+.portfolio-section {
+	padding: 40px 15px;
+}
+.portfolio-list,
+.portfolio-masonry-list {
+	margin: 0;
+}
+.portfolio-box {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.portfolio-detail {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.portfolio-detail,
+.portfolio-detail > i {
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.portfolio-detail > i {
+	max-width: 100%;
+}
+.portfolio-detail > i::before {
+	background-color: rgba(57,55,55,0.9);
+	border-radius: 100%;
+	bottom: 0;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	transform: scale(0) rotate(720deg);
+	-webkit-transform: scale(0) rotate(720deg);
+	-moz-transform: scale(0) rotate(720deg);
+	-ms-transform: scale(0) rotate(720deg);
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s
+}
+.portfolio-detail:hover > i::before {
+	border-radius: 0;
+	opacity: 1;
+}
+.portfolio-detail > i::after {
+	border-left: 45px solid transparent; 
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s
+}
+.portfolio-detail:hover > i::after {
+	opacity: 1;
+}
+.portfolio-detail > .portfolio-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translate(0%, -50%);
+	-webkit-transform: translate(0%, -50%);
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	opacity: 0;
+	text-align: center;
+}
+.portfolio-detail:hover  > .portfolio-content {
+	opacity: 1;
+}
+.portfolio-detail .portfolio-content > a {
+	display: inline-block;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	z-index: 1;
+	margin: 0 auto;
+	text-transform: capitalize;
+	text-decoration: none;
+	line-height: 1.5;
+	white-space: pre-line;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+/* - Portfolio 6 Col */
+.portfolio-section.portfolio-6-col {
+	padding-top: 0;
+}
+.portfolio-section.portfolio-6-col,
+.portfolio-6-col .portfolio-box {
+	padding-left: 0;
+	padding-right: 0;
+}
+.portfolio-6-col .portfolio-box {
+	margin: 0;
+}
 
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 600px;
+    height: 400px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
