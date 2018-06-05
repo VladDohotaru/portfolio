@@ -807,6 +807,14 @@ ul li {
 .hero-section {
   overflow: hidden;
   position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    height: 400px;
+  }
 }
 .hero-section.is-carousel .hero-wrapper {
   height: 70%;
@@ -959,6 +967,7 @@ ul li {
   z-index: 1;
 }
 .hero-section .heading-wrapper:before {
+  display: block;
   -moz-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
@@ -2074,9 +2083,9 @@ select option {
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal {
+.modal2 {
     display: none; /* Hidden by default */
-    position: auto; /* Stay in place */
+    position: fixed; /* Stay in place */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -2088,7 +2097,7 @@ select option {
 }
 
 /* Modal Content (Image) */
-.modal-content {
+.modal-content2 {
     margin: auto;
     display: block;
     position: auto; /* Stay in place */
@@ -2143,4 +2152,33 @@ select option {
     .modal-content {
         width: 100%;
     }
+}
+
+
+@media (max-width: 600px) {
+  .hero-section {
+    /* height: 700px !important; */
+  }
+  .head_image {
+    display: none;
+  }
+
+  .hero-section {
+    background: url("assets/img/slide-01a.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 400px !important;
+
+  }
+
+  .hero-section .heading-wrapper:before {
+    display: none;
+  }
+
+  .hero-section .heading-wrapper {
+    background-color: rgba(0,0,0,0);
+  }
+}
+
+.head_image {
+  display: block;
 }

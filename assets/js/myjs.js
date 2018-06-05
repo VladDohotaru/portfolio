@@ -5,9 +5,9 @@ $(document).ready(function() {
     })
     
     $('.portfolio-detail > i > img').on('click', function() {
-        this.parentElement.parentElement.getElementsByClassName("modal-content")[0].src = this.src;
-        this.parentElement.parentElement.getElementsByClassName("modal")[0].style.display = 'block';
-        this.parentElement.parentElement.getElementsByClassName("modal")[0].children[2].innerHTML = this.alt;
+        document.getElementsByClassName("modal-content2")[0].src = this.src;
+        document.getElementsByClassName("modal2")[0].style.display = 'block';
+        document.getElementsByClassName("modal2")[0].children[2].innerHTML = this.alt;
     });
 
     
