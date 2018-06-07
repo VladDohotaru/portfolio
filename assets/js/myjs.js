@@ -4,18 +4,8 @@ $(document).ready(function() {
         this.parentElement.style.display = 'none';
     })
     
-    $('.portfolio-detail > i > img').on('click', function() {
-        document.getElementsByClassName("modal-content2")[0].src = this.src;
-        document.getElementsByClassName("modal2")[0].style.display = 'block';
-        document.getElementsByClassName("modal2")[0].children[2].innerHTML = this.alt;
-    });
-
-    
-    $(document).keydown(function(e) {
-        // ESCAPE key pressed
-        if (e.keyCode == 27) {
-            open(location, '_self').close();
-        }
+    $('.gallery-row > a').on('click', function() {
+        document.getElementsByClassName("mfp-title")[0].innerHTML = $(this)[0].children[0].alt;
     });
 })
 
