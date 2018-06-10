@@ -8,7 +8,7 @@ $(document).ready(function() {
         document.getElementsByClassName("mfp-title")[0].innerHTML = $(this)[0].children[0].alt;
     });
     
-    $(".moreBox").slice(0, 3).show();
+    $(".moreBox").slice(0, 9).show();
     if ($(".blogBox:hidden").length != 0) {
       $("#loadMore").show();
     }   

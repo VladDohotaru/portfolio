@@ -2208,7 +2208,7 @@ div.mfp-title {
   width: 100%;
 }
 #loadMore a {
-  background: #faa635;
+  background: #1f1f1f;
   border-radius: 3px;
   color: white;
   display: inline-block;
@@ -2217,6 +2217,6 @@ div.mfp-title {
   -webkit-font-smoothing: antialiased;
 }
 #loadMore a:hover {
-  background-color: #042a63;
+  background-color: #1f1f1f;
 }
 
