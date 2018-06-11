@@ -233,7 +233,76 @@ Headers:		'Roboto', sans-serif;
     background-color: rgba(255, 255, 255, 0);
     padding: 40px 40px;
     text-transform: uppercase;
+  }
+  .navigation-on-canvas ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .navigation-on-canvas ul li ul li a {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding-left: 30px;
+  }
+  .navigation-on-canvas ul li ul li ul li a {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding-left: 60px;
+  }
 
+}
+
+
+@media (min-width: 2000px) {
+  .navigation-off-canvas {
+    display: none;
+  }
+
+  .navigation-on-canvas {
+    padding: 20px 0;    
+    position: relative;
+    /* right: -250px; */
+    display: inline-block;
+    font-size: 16px;
+    /* float: right; */
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  } 
+  .navigation-on-canvas h2 {
+    display: none;
+  }
+  .navigation-off-canvas h2 {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #fff;
+    margin: 0;
+  }
+  .navigation-on-canvas ul {
+    list-style: none;
+    /* padding-left: 0; */
+    padding-left: 350px;    
+    padding-right: 350px;        
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+  }
+  .navigation-on-canvas ul li {
+    display: inline-block;
+
+  }
+  .navigation-on-canvas ul li:first-child {
+    display: none;
+  }
+  .navigation-on-canvas ul li .label {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+  }
+  .navigation-on-canvas ul li a {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 40px 40px;
+    text-transform: uppercase;
   }
   .navigation-on-canvas ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -2303,7 +2372,7 @@ div.mfp-title {
   width: 100%;
 }
 #loadMore a {
-  background: #faa635;
+  background: #ccc;
   border-radius: 3px;
   color: white;
   display: inline-block;
