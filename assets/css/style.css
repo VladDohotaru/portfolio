@@ -39,7 +39,7 @@ Headers:		'Roboto', sans-serif;
   margin: 0;
 }
 
-@media (max-width: 865px) {
+@media (max-width: 1160px) {
   .navigation {
     padding: 20px 0;
     position: relative;
@@ -180,7 +180,7 @@ Headers:		'Roboto', sans-serif;
   }
 }
 
-@media (min-width: 866px) {
+@media (min-width: 1160px) {
   .navigation-off-canvas {
     display: none;
   }
@@ -212,13 +212,15 @@ Headers:		'Roboto', sans-serif;
   }
   .navigation-on-canvas ul {
     list-style: none;
-    padding-left: 0;
+    /* padding-left: 0; */
+    padding-left: 200px;    
     margin: 0;
     position: relative;
+    text-align: center !important;
   }
   .navigation-on-canvas ul li {
     display: inline-block;
-    text-align: center;
+
   }
   .navigation-on-canvas ul li:first-child {
     display: none;
@@ -231,6 +233,7 @@ Headers:		'Roboto', sans-serif;
     background-color: rgba(255, 255, 255, 0);
     padding: 40px 40px;
     text-transform: uppercase;
+
   }
   .navigation-on-canvas ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
