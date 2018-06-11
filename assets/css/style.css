@@ -230,6 +230,7 @@ Headers:		'Roboto', sans-serif;
   .navigation-on-canvas ul li a {
     background-color: rgba(255, 255, 255, 0);
     padding: 40px 40px;
+    text-transform: uppercase;
   }
   .navigation-on-canvas ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
