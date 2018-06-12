@@ -29,15 +29,7 @@ Headers:		'Roboto', sans-serif;
   padding: 20px 0;
   position: relative;
 }
-.navigation-off-canvas h2 {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-  font-size: 11px;
-  font-weight: bold;
-  padding-left: 20px;
-  color: #fff;
-  margin: 0;
-}
+
 
 @media (max-width: 1160px) {
   .navigation {
@@ -45,12 +37,12 @@ Headers:		'Roboto', sans-serif;
     position: relative;
   }
   .navigation-off-canvas h2 {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=true);
     opacity: 1;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
     padding-left: 20px;
-    color: #fff;
+    color: #000;
     margin: 0;
   }
   .navigation .nav-btn {
@@ -107,19 +99,10 @@ Headers:		'Roboto', sans-serif;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     position: absolute;
-    background-color: black;
+    background-color: rgba(0,0,0,0.05);
     width: 250px;
     right: -250px;
     height: 100%;
-  }
-  .navigation-off-canvas h2 {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-    font-size: 11px;
-    font-weight: bold;
-    padding-left: 20px;
-    color: #fff;
-    margin: 0;
   }
   .navigation-off-canvas ul {
     list-style: none;
@@ -138,7 +121,7 @@ Headers:		'Roboto', sans-serif;
   }
   .navigation-off-canvas ul li a {
     background-color: rgba(255, 255, 255, 0);
-    color: #fff;
+    color: #000;
     padding: 10px 20px;
     display: block;
   }
