@@ -471,6 +471,10 @@ ul li {
   padding: 25px;
   display: inline-block;
 }
+.framed2 {
+  padding: 25px;
+  display: inline-block;
+}
 
 .separator {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
