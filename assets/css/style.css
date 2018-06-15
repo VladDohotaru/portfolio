@@ -1,29 +1,3 @@
-/*------------------------------------------------------------------
-Project:	Archits HTML Template
-Version:	1.0
-Last change:	13.07.2016
-Assigned to:	ThemeStarz
-
-[Table of contents]
-
-1. Header
-2. Elements Styling
-3. Universal classes
-4. Classes
-5. Forms
-6. Responsive
-
-[Color codes]
-
-Default: #000;
-Color White: #fff
-
-[Typography]
-
-Body copy:		'Roboto', sans-serif; 12px;
-Headers:		'Roboto', sans-serif;
-
--------------------------------------------------------------------*/
 /* 1. Header */
 .navigation {
   padding: 20px 0;
@@ -468,11 +442,11 @@ ul li {
 
 .framed {
   border: 2px solid rgba(0, 0, 0, 0.2);
-  padding: 25px;
+  padding: 5px;
   display: inline-block;
 }
 .framed2 {
-  padding: 25px;
+  padding: 5px;
   display: inline-block;
 }
 
@@ -1453,23 +1427,22 @@ ul li {
 }
 
 .person {
+  margin-top: 80px;
   margin-bottom: 80px;
+  
+  
 }
 .person .left {
   width: 165px;
   height: 225px;
   overflow: hidden;
+  display: inline-block;
   position: relative;
-  float: left;
 }
 .person .right {
-  padding-left: 180px;
-}
-.person .right .framed {
-  display: block;
-  margin-left: -30px;
-  top: -15px;
-  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 .person .right h3 {
   margin: 0;
@@ -2081,13 +2054,13 @@ select option {
     display: inline-block;
   }
 
-  .person .left {
-    width: 115px;
-    height: 165px;
+  .person { 
+    text-align: center;
   }
 
   .person .right {
-    padding-left: 130px;
+    display: block;
+    margin-left: 0;
   }
 
   .time-line .time-line-item .date {
