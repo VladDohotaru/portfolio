@@ -350,7 +350,7 @@ dl dd {
 
 h2 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  opacity: 0.99;
   font-size: 24px;
   margin-top: 0;
 }
@@ -367,7 +367,7 @@ html, body {
 
 p {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
+  opacity: 0.99;
   line-height: 20px;
   text-transform: none;
 }
