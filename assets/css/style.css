@@ -2082,7 +2082,6 @@ select option {
 }
 /* - Portfolio Section */
 .portfolio-section {
-	padding: 40px 15px;
 }
 .portfolio-list,
 .portfolio-masonry-list {
@@ -2352,4 +2351,8 @@ div.mfp-title {
 }
 .gallery .gallery-item-homepage .image img {
   max-width: 100%;
+}
+
+hr.top {
+  margin-top: 5px;
 }
