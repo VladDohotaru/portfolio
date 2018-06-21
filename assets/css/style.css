@@ -1482,7 +1482,7 @@ ul li {
 
 .subpage-detail-v2 .header-background {
   position: absolute;
-  height: 180px;
+  height: 120px;
 }
 .subpage-detail-v2 .header-background:before {
   display: none;
