@@ -382,7 +382,6 @@ ul li {
 
 /* 3. Universal classes */
 .block {
-  padding: 50px 0;
   overflow: hidden;
   position: relative;
 }
@@ -892,7 +891,6 @@ ul li {
 .gallery .gallery-item {
   display: block;
   position: relative;
-  margin-bottom: 100px;
 }
 .gallery .gallery-item .title {
   position: absolute;
@@ -909,13 +907,6 @@ ul li {
   bottom: -45px;
   right: 10px;
   font-size: 24px;
-}
-.gallery .gallery-item .image {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
-}
-.gallery .gallery-item .image img {
-  max-width: 100%;
 }
 
 .hero-section {
@@ -2090,8 +2081,6 @@ select option {
 	margin: 0;
 }
 .portfolio-box {
-	margin-bottom: 20px;
-	margin-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -2296,12 +2285,10 @@ select option {
   overflow: hidden;
   position: relative;
   z-index: 1;
+  filter: greyscale(100);
 }
 
-.portfolio-box .right .gallery .width-100 {
-  height: 250px;
-  width: 99.8%;
-}
+
 
 div.mfp-title {
   margin: auto;
@@ -2351,4 +2338,34 @@ div.mfp-title {
 .place {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
+  padding-bottom: 40px;
+}
+
+.portfolio-box .right .gallery .width-100 {
+  height: 226px;
+  width: 99.8%;
+  filter: grayscale(100);
+}
+
+.portfolio-box .right .gallery .width-100:hover {
+  filter: grayscale(0);
+}
+.gallery .gallery-item .image img {
+  max-width: 100%;
+  filter: grayscale(100);
+}
+
+.gallery .gallery-item .image img:hover {
+  filter: grayscale(0);
+}
+
+a.seeMoreVisualisation {
+  font-weight: 300 !important;
+  opacity: 0.99;
+  padding-top: 40px;
+}
+
+a.seeMore {
+  font-weight: 300 !important;
+  opacity: 0.99;
 }
