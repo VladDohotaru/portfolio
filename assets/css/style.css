@@ -382,7 +382,7 @@ ul li {
 
 /* 3. Universal classes */
 .block {
-  padding: 50px 0;
+  padding: 30px 0;
   overflow: hidden;
   position: relative;
 }
@@ -1471,8 +1471,8 @@ ul li {
 }
 
 .section-title {
-  margin-top: 10px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .section-title h2 {
   margin-top: 10px;
@@ -2324,6 +2324,7 @@ div.mfp-title {
 
 .seeMore {
   font-weight: 300;
+  font-size: 14px;
 }
 .gallery .gallery-item-homepage {
   display: block;
