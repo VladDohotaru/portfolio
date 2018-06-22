@@ -2224,6 +2224,9 @@ select option {
 
 
 @media (max-width: 600px) {
+  hr.top {
+    display: none;
+  }
   .hero-section {
     /* height: 700px !important; */
   }
