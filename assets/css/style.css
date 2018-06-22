@@ -921,7 +921,10 @@ ul li {
   /* width: 80%; */
   margin: auto;
 }
-
+.brand > img {
+  width: 300px;
+  height: 100px;
+}
 
 .hero-section {
   /* height: 400px; */
@@ -934,6 +937,7 @@ ul li {
   } */
   .brand > img {
     width: 80%;
+   
   }
 }
 .hero-section.is-carousel .hero-wrapper {
