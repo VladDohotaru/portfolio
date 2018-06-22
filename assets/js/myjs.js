@@ -12,12 +12,13 @@ $(document).ready(function() {
     if ($(".blogBox:hidden").length != 0) {
       $("#loadMore").show();
     }   
-    $("#loadMore").on('click', function (e) {
-      e.preventDefault();
-      $(".moreBox:hidden").slice(0, 6).slideDown();
-      if ($(".moreBox:hidden").length == 0) {
-        $("#loadMore").fadeOut('slow');
+    $(window).scroll(function() {
+      if($(window).scrollTop() == $(document).height() - $(window).height()) {
+        $(".moreBox:hidden").slice(0, 6).slideDown();
+        if ($(".moreBox:hidden").length == 0) {
+          $("#loadMore").fadeOut('slow');
+        }
       }
-    });
+  });
 })
 
