@@ -2227,6 +2227,18 @@ select option {
   hr.top {
     display: none;
   }
+  .header-background .title h1 {
+    line-height: 270px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 36px;
+  }
+  .header-background .title-projects h1 {
+    line-height: 270px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+  }
   .hero-section {
     /* height: 700px !important; */
   }
