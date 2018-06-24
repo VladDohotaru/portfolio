@@ -773,11 +773,17 @@ ul li {
   content: "";
   z-index: -1;
 }
+.header-background .title-projects h1 {
+  line-height: 270px;
+  margin: 0;
+  font-weight: 300 ;
+  font-size: 38px;
+}
 .header-background .title h1 {
   line-height: 270px;
   margin: 0;
-  font-weight: 300;
-  font-size: 48px;
+  font-weight: 300 ;
+  font-size: 38px;
 }
 .header-background.overlay:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
@@ -1113,7 +1119,7 @@ ul li {
   top: -170px;
 }
 .hero-section .heading-wrapper .title h1 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 48px;
 }
 .hero-section .heading-wrapper .title:before {
@@ -2190,18 +2196,6 @@ select option {
 	margin: 0;
 }
 
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 600px;
-    height: 400px;
-}
-
 
 @keyframes zoom {
     from {transform:scale(0)} 
@@ -2239,9 +2233,7 @@ select option {
     font-weight: 300;
     font-size: 18px;
   }
-  .hero-section {
-    /* height: 700px !important; */
-  }
+
   .head_image {
     display: none;
   }
