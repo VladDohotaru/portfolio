@@ -764,7 +764,7 @@ ul li {
   -ms-transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
   transform: rotate(-3deg);
-  background-color: #fff;
+  /* background-color: #fff; */
   height: 110px;
   width: 105%;
   position: absolute;
