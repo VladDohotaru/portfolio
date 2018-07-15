@@ -2348,3 +2348,13 @@ hr.top {
   margin-top: 4px;
   margin-bottom: 25px;
 }
+
+
+.serv-img {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 245px;
+  width: 100%;
+}
